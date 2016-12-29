@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  src: local('Gilroy-ExtraBold'), url('https://github.com/Sidthecoder/ThatSid.ML/blob/master/css/Gilroy-ExtraBold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Gilroy-Light';
+  font-style: normal;
+  src: local('Gilroy-Light'), url('https://github.com/Sidthecoder/ThatSid.ML/blob/master/css/Gilroy-Light.otf') format('opentype');
+}
+body {
+  background: url("http://hdqwalls.com/download/zotac-gpu-box-background-on-1440x900.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+}
+.title {
+  font-family: "Gilroy-Bold";
+  color: #dfbe6a;
+  text-align: left;
+  font-size: 80px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.subtitle {
+  font-family: "Gilroy-Light";
+  color: #dfbe6a;
+  text-align: left;
+  font-size: 40px;
+  padding-top: 0px;
+  padding-left: 50px;
+}
+.top-right {
+  width: 200px;
+  height: 200px;
+}
+.Button {
+  background-color: transparent;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #dfbe6a;
+  display: inline-block;
+  cursor: pointer;
+  color: #dfbe6a;
+  font-family: 'Gilroy-Light';
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.Button:hover {
+  position: relative;
+  top: 1px;
+}
+.Button:active {
+  position: relative;
+  top: 2px;
+}
+#docs {
+  background: #000000;
+  position: center;
+  margin-top: 300px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.info-title {
+  padding-top: 20px;
+  color: #926f34;
+  font-family: 'Gilroy-Bold';
+  font-size: 50px;
+  padding-bottom: 0px;
+}
+.description {
+  padding-top: 0px;
+  color: #926f34;
+  font-family: 'Gilroy-Light';
+  font-size: 30px;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+}
+.code {
+  border: #926f34 solid 2px;
+  font-size: 30px;
+  border-radius: 2px;
+  color: #926f34;
+  padding: 8px 16px;
+}
+.gridSystem .col {
+  background: transparent;
+  border: 2px solid #926f34;
+  padding: 5px;
+  min-height: 30px;
+  text-align: center;
+  border-radius: 2px;
+  color: #926f34;
+  font-family: 'Gilroy-Light';
+}
+.gridSystem .row {
+  margin-bottom: 10px;
+}
+.gridSystem .row:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 550px) {
+  .row {
+    margin-bottom: 0;
+  }
+  .col {
+    margin-bottom: 10px;
+  }
+  .row:last-child .col:last-child {
+    margin-bottom: 0;
+  }
+}
+.version {
+  color: #926f34;
+  font-family: 'Gilroy-Bold';
+  font-size: 30px;
+}
+.madeby {
+  color: #926f34;
+  font-family: 'Gilroy-Light';
+  font-size: 60px;
+  text-align: right;
+  margin-right: 0px;
+  text-decoration: none;
+  position: relative;
+  margin-bottom: 0px;
+}
+.madeby:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #926f34;
+  transition: 0.4s;
+}
+.madeby:hover:after {
+  width: 100%;
+}
+::selection {
+  color: white;
+  background: #dfbe6a;
+}
