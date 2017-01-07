@@ -90,21 +90,6 @@ body {
   color: #926f34;
   font-family: 'Gilroy-Light';
   font-size: 20px;
-  margin-right: 0px;
-  text-decoration: none;
-  position: relative;
-}
-.copy:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  border-bottom: 2px solid #926f34;
-  transition: 0.4s;
-}
-.copy:hover:after {
-  width: 100%;
 }
 
 .logo {
