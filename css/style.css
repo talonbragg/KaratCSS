@@ -90,10 +90,9 @@ body {
   color: #926f34;
   font-family: 'Gilroy-Light';
   font-size: 20px;
-   margin-right: 0px;
+  margin-right: 0px;
   text-decoration: none;
   position: relative;
-  margin-bottom: 0px;
 }
 .copy:after {
   content: '';
@@ -107,6 +106,7 @@ body {
 .copy:hover:after {
   width: 100%;
 }
+
 .logo {
   width: 200px;
   height: 200px;
