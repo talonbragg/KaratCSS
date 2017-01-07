@@ -1,4 +1,9 @@
 @font-face {
+  font-family: 'Red-Seven';
+  font-style: normal;
+  src: local('red-seven'), url(./red-seven.otf) format('opentype');
+}
+@font-face {
   font-family: 'Gilroy-Bold';
   font-style: normal;
   src: local('Gilroy-ExtraBold'), url('https://github.com/Sidthecoder/ThatSid.ML/blob/master/css/Gilroy-ExtraBold.otf') format('opentype');
@@ -18,7 +23,7 @@ body {
   margin: 0px;
 }
 .title {
-  font-family: "Gilroy-Bold";
+  font-family: "Red-Seven";
   color: #dfbe6a;
   text-align: left;
   font-size: 80px;
