@@ -4,4 +4,4 @@ A Minimal CSS Framework:
 Direct Link (CSS): `<link rel='stylesheet' href='http://karat.gq/dist/karat.css'>`
 
 
-Visit [Karat.gq](http://Karat.gq)	
+Visit [Karat.gq](http://Karat.gq) to learn how to use it
