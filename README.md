@@ -1,7 +1,7 @@
-### KaratCSS Beta v1.0
-Many new features are arriving to Karat:
-* CDNJS
-* JSDelivr
-- iCons
-- And more...
+# Karat
+A Minimal CSS Framework:
+## Docs
+Direct Link (CSS): `<link rel='stylesheet' href='http://karat.gq/dist/karat.css'>`
 
+
+Visit [Karat.gq](http://Karat.gq)	
