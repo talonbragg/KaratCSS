@@ -1,4 +1,9 @@
 @font-face {
+  font-family: 'Red-Seven';
+  font-style: normal;
+  src: local('red-seven'), url(./red-seven.otf) format('opentype');
+}
+@font-face {
   font-family: 'Gilroy-Bold';
   font-style: normal;
   src: local('Gilroy-ExtraBold'), url(./Gilroy-ExtraBold.otf) format('opentype');
@@ -9,13 +14,6 @@
   font-style: normal;
   src: local('Gilroy-Light'), url(./Gilroy-Light.otf) format('opentype');
 }
-
-@font-face {
-  font-family: 'Gilroy-Light';
-  font-style: normal;
-  src: local('Gilroy-Light'), url('https://github.com/Sidthecoder/ThatSid.ML/blob/master/css/Gilroy-Light.otf') format('opentype');
-}
-
 body {
   background: url("http://hdqwalls.com/download/zotac-gpu-box-background-on-1440x900.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
