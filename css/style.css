@@ -145,6 +145,7 @@ body {
   text-decoration: none;
   position: relative;
   margin-bottom: 0px;
+  position: fixed;
 }
 .madeby:after {
   content: '';
